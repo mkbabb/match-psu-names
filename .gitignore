@@ -9,7 +9,6 @@ bootstrap/
 storage/
 auth/
 my_venv/
-data/
 __pycache__/
 log/
 _*
