@@ -8,6 +8,7 @@ vendor/
 bootstrap/
 storage/
 auth/
+data/
 my_venv/
 __pycache__/
 log/

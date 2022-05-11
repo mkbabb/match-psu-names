@@ -54,13 +54,13 @@ def find_closest_match(
 
 out_dirpath = pathlib.Path("./out/")
 
-school_authorities = json.load(open("src/authorities.json", "r"))
+school_authorities = json.load(open("school_authorities.json", "r"))
 school_authorities = [
     {**i, "df": pd.read_csv(i["filepath"])} for i in school_authorities
 ]
 
 input_filepath = (
-    "src/K12 and Community College IP Addressing_2022_04_18 - 2022-04-18.csv"
+    "K12 and Community College IP Addressing_2022_04_18 - 2022-04-18.csv"
 )
 input_key = "MCNC Entity Name"
 input_merge_column = "inst_id"
